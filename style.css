@@ -1,0 +1,143 @@
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Header/Navbar */
+header {
+    box-shadow: 2px 3px 5px 0 rgba(0, 0, 0, 0.16), 2px 2px 10px 0 rgba(0, 0, 0, 0.12);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+header nav {
+    letter-spacing: 0.2rem;
+    padding: 5px 10px !important;
+}
+
+header nav #logo {
+    font-size: 1rem;
+}
+
+/* header nav ul li a{
+    border-radius: 5px;
+    transition: all 0.5s;    
+}
+header nav ul li a:hover{
+    background-color: #c7c5c57b;
+} */
+/* Hero section main image */
+#hero-section {
+    background: url(./assets/images/architect.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+#hero-section h1 {
+    font-size: 36px;
+}
+
+#br-text {
+    padding: 8px 16px;
+    opacity: 0.75;
+}
+
+#a-text {
+    font-weight: 400 !important;
+    letter-spacing: 2px;
+}
+
+/* Projects Section */
+#projects-section {
+    width: 97%;
+    margin: 0 auto;
+}
+
+#project-text {
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+hr {
+    opacity: 0.1;
+}
+
+/* images Group */
+/* #image-group img{
+    cursor: pointer;
+    border-radius: 7px;
+    box-shadow: 2px 3px 5px 0 rgba(0,0,0,0.16), 2px 2px 10px 0 rgba(0,0,0,0.12);
+} */
+/* #image-group{
+    transition: all 0.7s;
+} */
+/* #image-group:hover{
+    scale: 1.05;
+} */
+/* About section */
+#about-section {
+    width: 97%;
+    margin: 0 auto;
+}
+
+#about-images {
+    filter: grayscale(70%);
+    /* border-radius: 10px;
+    box-shadow: 2px 3px 5px 0 rgba(0,0,0,0.16), 2px 2px 10px 0 rgba(0,0,0,0.12); */
+}
+
+#info {
+    font-size: 1.08rem;
+}
+
+/* Contact Section */
+#contacts-section {
+    width: 97%;
+    margin: 0 auto;
+}
+
+#contacts-section input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(167, 167, 167, 0.669);
+    margin-bottom: 1rem;
+}
+
+/* map */
+#map {
+    width: 97%;
+    margin: 0 auto;
+}
+
+@media (max-width:574px) {
+    #hero-section {
+        height: 60vh;
+    }
+
+    /* header nav ul li a{
+        border-radius: 5px;
+        transition: all 0.5s;    
+    }
+    header nav ul li a:hover{
+        background-color: #f8f9fa;
+    } */
+}
